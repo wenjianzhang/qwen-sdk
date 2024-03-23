@@ -4,7 +4,7 @@ import (
 	"bytes"
 	"encoding/json"
 	"fmt"
-	"github.com/xinggaoya/qwen-sdk/qwenmodel"
+	"github.com/wenjianzhang/qwen-sdk/qwenmodel"
 	"net/http"
 )
 
