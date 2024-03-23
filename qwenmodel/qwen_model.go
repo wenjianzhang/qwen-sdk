@@ -22,6 +22,11 @@ type QWenTurbo struct {
 
 type Parameters struct {
 	EnableSearch bool `json:"enable_search"`
+	Seed int `json:"seed"`
+    	TopP float64 `json:"top_p"`
+	MaxTokens int `json:"max_tokens"`
+	Temperature float64 `json:"temperature"`
+	RepetitionPenalty float64 `json:"repetition_penalty"`
 }
 
 type Messages struct {
